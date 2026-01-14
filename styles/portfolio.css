@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* all style */
+a:hover{
+    background-color: #0f797980;
+    padding: 18px 39px; 
+    border-radius: 5px;
+}
+.skills-card:hover{
+    background-color: #0f79797e;
+}
+.text-aling{
+    text-align: center;
+}
+.font-open-sans{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+.logo h2{
+    font-size: 45px;
+    font-weight: 900;
+}
+.color-orange{
+    color:#FD6E0A;
+}
+.btn:hover{
+    background-color: #0f797981;
+}
+.btn-group{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.btn{
+    background-color: #FD6E0A;
+    border: none;
+    border-radius: 5px;
+    padding: 18px 35px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;  
+    cursor: pointer; 
+}
+.section-heading{
+    max-width: 827px;
+    margin: 0 auto;
+    text-align: center;
+}
+.section-heading h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.section-heading p{
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    color:#757575;
+}
+/* spacial style */
+header{
+    background-color: #FFF8F3;
+    padding-top: 50px;
+    background: url("../images/developer.png") ,url("../images/header_bg.png") ,#FFF8F3;
+    background-position: 23px -30px , bottom right;
+    background-repeat: no-repeat;
+}
+nav{
+    max-width:1140px;
+    width: 68%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+nav .manu{
+    list-style: none;
+    display: flex;
+    gap: 51px;
+    align-items: center;
+}
+
+nav .manu a{
+    font-size:20px;
+    color: #474747;
+    padding: 18px 39px;
+    text-decoration: none;
+    align-items: center;
+}
+
+
+/* banar section */
+
+#banner{
+    margin: 46px 38px 0 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#banner .banner-content{
+    max-width: 585px;
+}
+#banner .banner-content h2{
+    /* font-weight:;  */
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+}
+#banner .banner-content h1{
+    font-size: 85px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+#banner .banner-content p{
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+#banner .banner-image img{
+    max-width: 600px;
+    vertical-align: middle;
+}
+
+/* about section*/
+#about 
+,#skills
+,#resume{
+    padding-top: 130px;
+}
+
+#about .about-container{
+    width: 68%;
+    max-width: 1140px;
+    margin: 0 auto;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    text-align: center;
+    /* padding: 131px 156px; */
+    padding: 131px 5px;
+}
+#about .about-container .about-info{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info .info-card p{
+    line-height: 30px;
+    font-size: 20px;
+    color: #757575;
+}
+.about-info .info-card h4{
+    font-size: 20px;
+    color: #474747;
+}
+
+/* skills card */
+#skills .skills-container{
+    width: 68%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+#skills .skills-container .skills-box{
+    display: flex;
+    gap: 24px;
+
+}
+.skills-box .skills-card{
+    /* border: 1px solid #181818; */
+    padding: 30px;
+    max-width: 267px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0 #00000025 ;
+}
+.skills-card img{
+    size: 44px;
+    border-radius: 10px; 
+    margin-bottom: 30px;
+}
+.skills-card h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #181818;
+}
+.skills-card p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
+/* resume section  */
+#resume hr{
+    margin: 30px 0;
+}
+#resume .resume-container{
+    width: 68%;
+    max-width: 1140px;
+    margin: 113px auto 0;
+    display: flex;
+    gap: 24px;
+}
+.resume-container .section-titel{
+    color: #474747;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.resume-card{
+    max-width: 511px;
+    margin-right: 47px;
+}
+.card-title{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color:#474747 ;
+}
+.resume-card .card-info{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color:#757575 ;
+}
+.resume-card .card-text{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    color:#757575 ;
+}
+
+footer{
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    padding: 130px 0;
+}
+footer .footer-containar{
+    width: 68%;
+    max-width: 1140px;
+    margin:  0 auto;
+    display: flex;
+    gap: 116px;
+}
+
+.footer-containar .social{
+    max-width: 562px;
+}
+
+.footer-containar .social h2{
+    color: #181818;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.footer-containar .social p{
+    color: #474747;
+    margin-bottom: 30px;
+    line-height: 28px;
+    font-size: 16px;
+}
+
+.footer-containar .icon a{
+    margin-right: 24px;
+}
+
+.footer-containar  form input[type="text"],textarea{
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    color: #757575;
+}
+
+
+.hide{
+    display: none !important;
+}
+
+@media screen and (max-width:576px) {
+    #about, #skills, #resume {
+    padding-top: 90px;
+}
+.btn-group{
+    justify-content: center;
+}
+nav{
+    gap: 20px;
+}
+#banner{
+    margin: 20px;
+    gap: 20px;
+}
+#banner .banner-content h1{
+    font-size: 44px;
+}
+#banner .banner-image img{
+    width: 100%;
+}
+header {
+    background:url(../images/header_bg.png), #FFF8F3;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+nav .manu{
+    flex-wrap: wrap;
+}
+#skills .skills-container {
+    width: 95%;
+}
+.section-heading h2 {
+    font-size: 30px;
+}
+#about .about-container .about-info {
+    gap: 40px;
+}
+#skills .skills-container .skills-box ,#about .about-container .about-info ,footer .footer-containar ,#resume .resume-container ,nav ,#banner {
+    flex-direction: column;
+}
+#resume .resume-container{
+    margin-top: 60px;
+}
+.resume-card{
+    margin-right: 10px;
+}
+.skills-box .skills-card{
+    max-width: 100%;
+}
+#about .about-container{
+    padding: 20px;
+}
+.footer-containar form input[type="text"], .footer-containar form textarea {
+    width: 100%;
+    color: #757575;
+}
+}
