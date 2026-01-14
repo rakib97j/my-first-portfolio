@@ -5,12 +5,12 @@
 
 /* all style */
 a:hover{
-    background-color: #0f797980;
+    background-color: #0f797941;
     padding: 18px 39px; 
     border-radius: 5px;
 }
 .skills-card:hover{
-    background-color: #0f79797e;
+    background-color: #0f797938;
 }
 .text-aling{
     text-align: center;
