@@ -62,9 +62,10 @@ a:hover{
 /* spacial style */
 header{
     background-color: #FFF8F3;
-    padding-top: 50px;
+    padding-top: 150px;
+    /* padding-bottom: 100px; */
     background: url("../images/developer.png") ,url("../images/header_bg.png") ,#FFF8F3;
-    background-position: 23px -30px , bottom right;
+    background-position: 23px 30px , bottom right;
     background-repeat: no-repeat;
 }
 nav{
@@ -73,6 +74,7 @@ nav{
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 nav .manu{
     list-style: none;
@@ -301,8 +303,13 @@ header {
     background-position: bottom right;
     background-repeat: no-repeat;
 }
+nav{
+
+}
 nav .manu{
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    text-align: center;
+    flex-direction: column;
 }
 #skills .skills-container {
     width: 95%;
